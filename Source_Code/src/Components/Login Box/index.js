@@ -23,6 +23,28 @@ export default function Frame60() {
           className="spacer-vertical"
         />
         <div className="forms-registration-email-password">
+
+          {/* Name Input */}
+                
+          <div className="text-field-outlined">
+            <div className="input">
+              <div className="label-container">
+                <p className="label">Name</p>
+              </div>
+              <input className="content clip-contents" placeholder="Enter your name"/>
+              {/* <div className="content clip-contents">
+                <p className="value">example@gmail.com</p>
+              </div> */}
+            </div>
+          </div>
+          
+        {/* Name Input */}
+
+        <img
+            src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/68va6dmrmrr-119%3A4484?alt=media&token=bf6e43d3-f6e4-431a-8bd1-4cfbacc30822"
+            alt="Not Found"
+            className="spacer-vertical-1"
+          /> 
             
         {/* Email Input */}
                 
@@ -61,6 +83,28 @@ export default function Frame60() {
           </div>
           
         {/* Password Input */}
+
+        <img
+            src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/68va6dmrmrr-119%3A4484?alt=media&token=bf6e43d3-f6e4-431a-8bd1-4cfbacc30822"
+            alt="Not Found"
+            className="spacer-vertical-1"
+        />
+
+        {/* Confirm Password Input */}
+                
+          <div className="text-field-outlined-1">
+            <div className="input-1">
+              <div className="label-container-1">
+                <p className="label-2">Confirm Password</p>         
+              </div>
+              <input className="content clip-contents" placeholder="Confirm your password" type={"password"}/>
+              {/* <div className="content-2 clip-contents">
+                <p className="value-1">**********</p>   
+              </div> */}
+            </div>
+          </div>
+          
+        {/* Confirm Password Input */}
                 
           <img
             src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/68va6dmrmrr-119%3A4486?alt=media&token=0fcc55d5-7660-4b27-9f1a-3f403e9be388"

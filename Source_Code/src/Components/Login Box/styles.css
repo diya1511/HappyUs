@@ -13,9 +13,9 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 32px;
+  gap: 16px;
   width: 37.5rem;
-  height: 32.188rem;
+  height: 39.188rem;
   padding: 50px;
   border-radius: 12px;
   box-sizing: border-box;
@@ -125,7 +125,8 @@ p {
     position: absolute;
     top: -7px;
     left: 4px;
-    width: 79px;
+    /* width: 79px; */
+    white-space: nowrap;
     color: rgba(0, 0, 0, 0.6);
     font-size: 12px;
     line-height: 133%;
@@ -201,6 +202,7 @@ p {
     top: -7px;
     left: 4px;
     /* width: 55px; */
+    white-space: nowrap;
     color: rgba(0, 0, 0, 0.6);
     font-size: 12px;
     line-height: 133%;
